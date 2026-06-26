@@ -1,0 +1,42 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local editor and agent state
+.idea/
+.vscode/
+.cursor/
+.claude/
+.codex/
+.superpowers/
+.codegraph/
+
+# Build and packaging outputs
+build/
+dist/
+artifacts/
+*.egg-info/
+
+# Runtime and temporary files
+tmp/
+*.log
+
+# Exported or reference data files
+data/
+*.xlsx
+*.xls
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+docs/superpowers/
